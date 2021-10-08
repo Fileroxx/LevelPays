@@ -1,0 +1,123 @@
+#dicas {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: "Exo", sans-serif;
+}
+
+#dicas h4 {
+  padding-bottom: 3rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #1d1c3f;
+}
+
+#dicas .card1 {
+  background: url("../../public/conversa.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+#dicas .card1 h3 {
+  padding-top: 12rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#dicas .card1 img {
+  height: 7%;
+  width: 7%;
+  padding-top: 12rem;
+}
+
+#dicas .card2 {
+  background: url("../../public/conversa2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+#dicas .card2 h3 {
+  padding-top: 12rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#dicas .card2 img {
+  height: 7%;
+  width: 7%;
+  padding-top: 12rem;
+}
+
+#dicas .card3 {
+  background: url("../../public/conversa3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+#dicas .card3 h3 {
+  padding-top: 12rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#dicas .card3 img {
+  height: 7%;
+  width: 7%;
+  padding-top: 12rem;
+}
+
+@media screen and (max-width: 458px) {
+  #dicas .card1 {
+    padding: 0;
+  }
+
+  #dicas .card1 img {
+    display: none;
+  }
+
+  #dicas .card1 h3 {
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  #dicas .card2 {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  #dicas .card2 img {
+    display: none;
+  }
+
+  #dicas .card2 h3 {
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  #dicas .card3 {
+    padding: 0;
+  }
+
+  #dicas .card3 img {
+    display: none;
+  }
+
+  #dicas .card3 h3 {
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}

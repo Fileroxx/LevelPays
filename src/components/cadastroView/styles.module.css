@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#cadastroView {
+  background: linear-gradient(94.13deg, #2161ff -12.34%, #1b47c9 75.85%);
+  padding-top: 8rem;
+  padding-bottom: 12rem;
+  font-family: "Exo", sans-serif;
+}
+
+#cadastroView .titulo {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.6px solid #fff;
+}
+
+#cadastroView .titulo h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#cadastroView input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #1a193a;
+}
+
+#cadastroView .botaoContinuar {
+  text-align: right;
+}
+
+#cadastroView .botao {
+  color: #fff;
+  text-transform: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Exo", sans-serif;
+  opacity: 0.6;
+}

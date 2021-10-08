@@ -1,0 +1,22 @@
+#navbar {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  font-family: "Exo", sans-serif;
+}
+
+#navbar .links {
+  margin-top: 10px;
+}
+
+#navbar .links a {
+  color: #fff;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+}

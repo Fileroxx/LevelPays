@@ -1,0 +1,22 @@
+#navbarMobile {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#navbarMobile img {
+  width: 100%;
+}
+
+#navbarMobile .botao {
+  color: #fff;
+  padding-top: 0.5rem;
+  margin-left: 4rem;
+}
+
+@media screen and (min-width: 769px) {
+  #navbarMobile {
+    display: none;
+  }
+}

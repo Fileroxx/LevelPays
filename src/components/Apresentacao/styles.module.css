@@ -1,0 +1,155 @@
+#apresentacao {
+  background: linear-gradient(
+    93.3deg,
+    #2161ff 28.21%,
+    #224ec8 62.91%,
+    #1236a4 102.25%
+  );
+
+  font-family: "Exo", sans-serif;
+  padding-bottom: 8rem;
+}
+
+#apresentacao .titulo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+#apresentacao .titulo img {
+  width: 3%;
+  padding-top: 3.5rem;
+}
+
+#apresentacao .titulo h3 {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-left: 10px;
+  font-size: 2.3rem;
+}
+
+#apresentacao .texto p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-right: 20rem;
+  padding-bottom: 3rem;
+}
+
+#apresentacao .card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  color: #2b2b2b;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+#apresentacao .card .titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#apresentacao .card .titulo h4 {
+  padding-right: 8rem;
+  font-size: 2rem;
+}
+
+#apresentacao .card .titulo img {
+  width: 13%;
+  margin-top: -6rem;
+}
+
+#apresentacao .card .titulo {
+  color: #2b2b2b;
+}
+
+#apresentacao .card .texto p {
+  color: #2b2b2b;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+#apresentacao .pagamentos h4 {
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+
+#apresentacao .titulo2 {
+  display: flex;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  color: #fff;
+}
+
+#apresentacao .titulo2 h4 {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+#apresentacao .texto2 p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+#apresentacao .cardPagamentos {
+  background: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+
+#apresentacao .boleto {
+  display: flex;
+  justify-content: space-around;
+  color: #1d1b3f;
+  margin-top: 2rem;
+  border-bottom: 1px solid #1d1b3f;
+}
+
+#apresentacao .boleto img {
+  width: 4%;
+  height: 4%;
+}
+
+#apresentacao .boleto h5 {
+  font-size: 1rem;
+}
+
+#apresentacao .imagem img {
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 458px) {
+  #apresentacao .titulo img {
+    width: 10%;
+  }
+
+  #apresentacao .texto p {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  #apresentacao .cardPagamentos {
+    padding: 2rem;
+  }
+
+  #apresentacao .boleto p {
+    padding-left: 1rem;
+  }
+
+  #apresentacao .card {
+    padding: 2rem;
+  }
+
+  #apresentacao .card img {
+    display: none;
+  }
+}

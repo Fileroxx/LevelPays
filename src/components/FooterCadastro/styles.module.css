@@ -1,0 +1,12 @@
+#footerCadastro {
+  background: linear-gradient(94.13deg, #222047 -12.34%, #222047 75.85%);
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+}
+
+#footerCadastro p {
+  font-weight: 300;
+}

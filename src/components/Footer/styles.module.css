@@ -1,0 +1,23 @@
+#footer {
+  background: linear-gradient(94.13deg, #222047 -12.34%, #222047 75.85%);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+}
+
+#footer p {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 458px) {
+  #footer p {
+    display: none;
+  }
+
+  #footer {
+    text-align: center;
+  }
+}

@@ -1,0 +1,79 @@
+#ferramentas {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: "Exo", sans-serif;
+}
+
+#ferramentas img {
+  width: 80%;
+}
+
+#ferramentas .titulo {
+  display: flex;
+  align-items: center;
+}
+
+#ferramentas .titulo img {
+  width: 5%;
+}
+
+#ferramentas .titulo h4 {
+  font-size: 1.8rem;
+  padding-top: 0.8rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  color: #1d1c3f;
+}
+
+#ferramentas p {
+  color: #1d1c3f;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#ferramentas .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1d1c3f;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#ferramentas .card p {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+#ferramentas .card img {
+  height: 4%;
+  width: 4%;
+}
+
+@media screen and (max-width: 458px) {
+  #ferramentas .celular {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  #ferramentas .titulo img {
+    width: 8%;
+  }
+
+  #ferramentas .card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  #ferramentas .card p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 0rem;
+    padding-right: 5rem;
+  }
+}
